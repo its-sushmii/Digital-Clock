@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(115deg, #7579e7  25%,  #d2f5e3 75%);
+  }
+  .dateTime{
+    color: #fff;
+    background: #835858;
+    font-family: "Segoe UI", sans-serif;
+    width: 340px;
+    padding: 70px 70px;
+    border-radius: 15px;
+    transition: 0.5s;
+  }
+  .dateTime:hover{
+    background: teal;
+    box-shadow: 0 0 30px teal;
+    cursor: pointer;
+  }
+  .date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .time{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+  }
